@@ -11,6 +11,32 @@ body {
     line-height: 1.6;
 }
 
-.introductory {
-    color: white
+.hero {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 10%;
+}
+
+.hero .greeting {
+    font-size: 1rem;
+    color: #888;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+}
+
+.hero h1 {
+    font-family: 'Raleway', sans-serif;
+    font-size: clamp(2rem, 6vw, 4rem);
+    font-weight: 700;
+    color: #ffffff;
+    margin: 0.25rem 0;
+}
+
+.hero subtitle {
+    font-size: 1.1rem;
+    color: #aaa;
+    max-width: 480px;
+    margin-top: 0.5rem;
 }
