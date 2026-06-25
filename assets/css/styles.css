@@ -5,7 +5,7 @@
 }
 
 body {
-    background-color: rgb(20, 20, 20);
+    background-color: rgb(10, 10, 10);
     color: #e0e0e0;
     font-family: 'Lato', sans-serif;
     line-height: 1.6;
@@ -39,4 +39,38 @@ body {
     color: #aaa;
     max-width: 480px;
     margin-top: 0.5rem;
+}
+
+.hidden {
+  display: none;
+}
+
+.tabs {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 2rem;
+  justify-content: center;
+  text-align: center;
+}
+
+.tab {
+  background: transparent;
+  color: #aaa;
+  border: 1px solid #333;
+  padding: 0.5rem 1.2rem;
+  font-family: 'Raleway', sans-serif;
+  cursor: pointer;
+  text-align: center;
+  justify-content: center;
+}
+
+.tab.active {
+  color: #fff;
+  border-color: #fff;
+  text-align: center;
+  justify-content: center;
+}
+
+.about {
+    text-align: center;
 }
