@@ -32,6 +32,7 @@ html {
     font-weight: 500;
     line-height: 1.5rem;
     overflow-wrap: break-word;
+    text-shadow: 2px 2px 10px black;
 }
 
 .heading-nav {
@@ -143,6 +144,7 @@ html {
 .anchor-proj-img {
     position: relative;
     display: block;
+    text-decoration: none;
 }
 
 #project-icon {
@@ -167,11 +169,13 @@ html {
     border-radius: 8px;
     padding: 24px;
     transition: all 0.15s;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
 }
 
 .project-card:hover {
     background-color: #202020;
     transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
 }
 
 .project-title {
@@ -234,4 +238,131 @@ html {
 
 .project-btn:hover {
     color: #E5E5E5;
+}
+
+.experience-heading {
+    margin-top: 40px;
+    color: #A8A8A8;
+}
+
+.job-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 16px;
+  padding: 16px;
+  background-color: #1d1d1d;
+  border-radius: 4px;
+  border-color: #a8a8a860;
+  border-width: 1px;
+  border-style: solid;
+  transition: all 0.15s;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.39);
+  margin-bottom: 40px;
+}
+
+.job-card:hover {
+    background-color: #202020;
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
+}
+
+.job-img {
+  width: 48px;
+  height: 48px;
+  border-radius: 6px;
+  object-fit: cover;
+  flex-shrink: 0;
+}
+
+.job-left {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  flex-grow: 1; 
+}
+
+.job-role {
+  color: #E5E5E5;
+  font-weight: 500;
+}
+
+.job-company-name {
+  color: #A8A8A8;
+  font-size: 0.9rem;
+  font-style: italic;
+  margin-top: -20px;
+}
+
+.job-time {
+  color: #A8A8A8;
+  font-size: 0.9rem;
+  white-space: nowrap;
+  flex-shrink: 0;
+}
+
+.tech-stack-heading {
+    font-size: 0.9rem;
+    color: #A8A8A8;
+}
+
+.tech-stack {
+  display: flex;
+  gap: 20px;
+  padding: 6px 0;
+  line-height: 25px;
+}
+
+.tech-stack p:first-child {
+  color: #A8A8A8;
+  width: 90px;
+  flex-shrink: 0;
+  font-size: 0.9rem;
+}
+
+.tech-stack p:last-child {
+  color: #E5E5E5;
+  font-size: 0.9rem;
+}
+
+.tech-stack p {
+  margin: 0;
+}
+
+.site-footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 12px;
+  padding: 32px 0;
+  margin-top: 48px;
+  border-top: 1px solid #2A2A2A;
+}
+
+.footer-text {
+  color: #A8A8A8;
+  font-size: 0.85rem;
+  margin: 0;
+  font-style: italic;
+}
+
+.footer-links {
+  display: flex;
+  gap: 20px;
+}
+
+.footer-link {
+  color: #A8A8A8;
+  font-size: 0.85rem;
+  text-decoration: none;
+  transition: color 0.15s;
+}
+
+.footer-link:visited {
+  color: #A8A8A8;
+}
+
+.footer-link:hover {
+  color: #E5E5E5;
 }
