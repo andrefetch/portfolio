@@ -20,3 +20,6 @@ Not a heavy component-based project, so I skipped the framework overhead and bui
 
 ## Deployment
 Hosted on GitHub Pages with a custom domain ([andresilva.tech](https://andresilva.tech)) and HTTPS.
+
+## License
+MIT
