@@ -103,3 +103,135 @@ html {
 #linkedin-icon {
     padding-top: 3px;
 }
+
+#projects {
+    padding-top: 30px;
+}
+
+.project-section-title {
+    padding-bottom: 10px;
+    color: #A8A8A8;
+}
+
+.projects-section {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 24px;
+}
+
+.project-img {
+  width: 100%;
+  aspect-ratio: 16 / 9;
+  object-fit: cover;
+  object-position: top;
+  border-radius: 6px;
+  margin-bottom: 16px;
+  background-color: #2A2A2A; 
+  border: 1px solid #a8a8a860;
+  transition: 0.5s;
+}
+
+.project-img:hover {
+    background-color: rgb(221, 221, 221);
+    opacity: 50%;
+}
+
+.p-img {
+    position: relative;
+}
+
+.anchor-proj-img {
+    position: relative;
+    display: block;
+}
+
+#project-icon {
+  position: absolute;
+  top: 45%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 1.5rem;
+  color: #E5E5E5;
+  opacity: 0;
+  transition: opacity 0.3s;
+  pointer-events: none; 
+}
+
+.anchor-proj-img:hover #project-icon {
+  opacity: 100%;
+}
+
+.project-card {
+    background-color: #1d1d1d;
+    border: 1px solid #a8a8a860;
+    border-radius: 8px;
+    padding: 24px;
+    transition: all 0.15s;
+}
+
+.project-card:hover {
+    background-color: #202020;
+    transform: translateY(-5px);
+}
+
+.project-title {
+    color: #E5E5E5;
+    font-weight: 600;
+    margin-top: 0;
+    margin-bottom: 5px;
+}
+
+.project-desc {
+    color: #A8A8A8;
+    margin-top: 0;
+    margin-bottom: 0px;
+}
+
+.project-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+  margin: 10px 0px;
+  margin-bottom: 15px;
+}
+
+.tag {
+  font-size: 0.8rem;
+  color: #A8A8A8;
+  background-color: #2A2A2A;
+  padding: 4px 10px;
+  border-radius: 4px; 
+  border: 1px solid #3A3A3A;
+  margin-bottom: 0px;
+  margin-top: 5px;
+}
+
+.project-href {
+    text-decoration: none;
+}
+
+.project-btn {
+    background-color: #2A2A2A;
+    border-style: solid;
+    border-color: #3A3A3A;
+    border-width: 1px;
+    color: #A8A8A8;
+    border-radius: 4px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 5px;
+    padding-top: 5px;
+    text-decoration: none;
+    outline: none;
+    margin-right: 5px;
+    cursor: pointer;
+    transition: all 0.15s;
+}
+
+.project-btn:focus {
+  outline: none;
+}
+
+.project-btn:hover {
+    color: #E5E5E5;
+}
