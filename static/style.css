@@ -1,0 +1,54 @@
+body {
+  font-family: "Geist", sans-serif;
+  margin-bottom: 0;
+  margin-top: 0;
+  background-color: #1A1A1A;
+}
+
+.site-container {
+  width: 640px;
+  margin: auto;
+  padding-top: 56px;
+  padding-right: 24px;
+  padding-left: 24px;
+}
+
+.heading {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 1rem;
+  row-gap: 0.5rem;
+}
+
+.heading-name {
+    font-size: 1rem;
+    color: #E5E5E5;
+    font-weight: 500;
+    line-height: 1.5rem;
+    overflow-wrap: break-word;
+}
+
+.heading-nav {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+
+.heading-location {
+    color: #636363;
+    font-weight: 400;
+    font-size: 0.9rem;
+}
+
+.heading-nav-element {
+    font-size: 0.9rem;
+    color: #636363;
+    text-decoration: none;
+    transition: all 0.15s;
+}
+
+.heading-nav-element:hover{
+    color: #E5E5E5;
+}
