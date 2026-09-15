@@ -26,6 +26,7 @@ Hosted on GitHub Pages with a custom domain ([andresilva.tech](https://andresilv
 - [ ] Mobile/Different Screen Ratio Responsivness
 - [x] More Projects Btn -> redirects to my GitHub
 - [x] Src Code Button -> redirects here
+- [x] Email Copying instead of mailto: 
 
 ## License
 MIT
