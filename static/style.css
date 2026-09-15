@@ -397,3 +397,32 @@ html {
 .contact-link:hover {
   color: #E5E5E5;
 }
+
+.more-projects-btn {
+  font-size: 16px;
+  font-weight: 400;
+  color: #A8A8A8;
+  align-items: center;
+  justify-content: center;
+  background-color: #1D1D1D;
+  border-color: #a8a8a860;
+  border-style: solid;
+  border-width: 1px;
+  padding-left: 235px;
+  padding-right: 235px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  margin-top: 30px;
+  white-space: nowrap;
+  border-radius: 8px;
+  cursor: pointer;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.281);
+  transition: all 0.15s;
+}
+
+.more-projects-btn:hover {
+  background-color: rgb(46, 46, 46);
+  transform: translateY(-5px);
+  box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
+  color: #E5E5E5;
+}
