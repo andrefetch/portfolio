@@ -21,5 +21,11 @@ Not a heavy component-based project, so I skipped the framework overhead and bui
 ## Deployment
 Hosted on GitHub Pages with a custom domain ([andresilva.tech](https://andresilva.tech)) and HTTPS.
 
+## Roadmap
+- [x] Deploy Live
+- [ ] Mobile/Different Screen Ratio Responsivness
+- [ ] More Projects Btn -> redirects to my GitHub
+- [ ] Src Code Button -> redirects here
+
 ## License
 MIT
