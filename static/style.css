@@ -382,6 +382,7 @@ html {
   display: flex;
   flex-direction: column;
   gap: 12px;
+  cursor: pointer;
 }
 
 .contact-link {
@@ -393,6 +394,7 @@ html {
   font-size: 0.95rem;
   width: fit-content;
   transition: color 0.15s;
+  cursor: pointer;
 }
 
 .contact-link:visited {
