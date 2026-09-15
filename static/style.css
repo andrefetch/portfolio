@@ -99,6 +99,11 @@ html {
     font-size: 0.9rem;
 }
 
+.email-link {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 #email-icon,
 #github-icon,
 #linkedin-icon {
@@ -396,6 +401,10 @@ html {
 
 .contact-link:hover {
   color: #E5E5E5;
+}
+
+.email-contact {
+  cursor: pointer;
 }
 
 .more-projects-btn {
