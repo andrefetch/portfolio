@@ -24,8 +24,8 @@ Hosted on GitHub Pages with a custom domain ([andresilva.tech](https://andresilv
 ## Roadmap
 - [x] Deploy Live
 - [ ] Mobile/Different Screen Ratio Responsivness
-- [ ] More Projects Btn -> redirects to my GitHub
-- [ ] Src Code Button -> redirects here
+- [x] More Projects Btn -> redirects to my GitHub
+- [x] Src Code Button -> redirects here
 
 ## License
 MIT
