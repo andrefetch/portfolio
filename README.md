@@ -8,8 +8,8 @@ A sleek, modern, minimalist portfolio that gets straight to the point, a one pag
   <img src="static/images/eample_img_2.png" alt="" width="100%" />
 </p>
 
-## Why vanilla HTML/CSS
-Not a heavy component-based project, so I skipped the framework overhead and built it in vanilla HTML5 and CSS3.
+## Why vanilla HTML/CSS/JS
+Not a heavy component-based project, so I skipped the framework overhead and built it in vanilla HTML5, CSS3 and JS.
 
 ## Sections
 - **About:** dark-theme, tab-switcher layout
