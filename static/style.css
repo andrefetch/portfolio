@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   font-family: "Geist", sans-serif;
   margin-bottom: 0;
@@ -10,7 +14,8 @@ html {
 }
 
 .site-container {
-  width: 640px;
+  width: 100%;
+  max-width: 688px;
   margin: auto;
   padding-top: 60px;
   padding-right: 24px;
@@ -60,7 +65,8 @@ html {
 }
 
 .about-section {
-    width: 620px;
+    width: 100%;
+    max-width: 620px;
     height: 203.2px;
 }
 
@@ -463,4 +469,57 @@ html {
   padding: 5px 10px;
   margin-left: 325px;
   font-size: 0.8rem;
+}
+
+@media (max-width: 640px) {
+  .site-container {
+    padding-top: 40px;
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .heading-nav {
+    flex-wrap: wrap;
+    gap: 10px 16px;
+  }
+
+  .about-section {
+    height: auto;
+  }
+
+  #projects {
+    padding-top: 20px;
+  }
+
+  .projects-section {
+    grid-template-columns: 1fr;
+    gap: 16px;
+  }
+
+  .project-card {
+    padding: 16px;
+  }
+
+  .more-projects-btn {
+    display: block;
+    width: 100%;
+    padding-left: 0;
+    padding-right: 0;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 0.9rem;
+    text-decoration: none;
+  }
+  
+  .more-projects-btn:visited {
+    text-decoration: none;
+  }
+
+  .job-card {
+    flex-wrap: wrap;
+  }
+
+  .contact-email-copy {
+    margin-left: 10px;
+  }
 }
