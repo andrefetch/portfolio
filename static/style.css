@@ -66,7 +66,6 @@ html {
 
 .about-section {
     width: 100%;
-    max-width: 620px;
     height: 203.2px;
 }
 
@@ -242,6 +241,7 @@ html {
     margin-right: 5px;
     cursor: pointer;
     transition: all 0.15s;
+    font-weight: 500;
 }
 
 .project-btn:focus {
@@ -469,6 +469,31 @@ html {
   padding: 5px 10px;
   margin-left: 325px;
   font-size: 0.8rem;
+}
+
+.about-links {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    row-gap: 8px;
+}
+
+.resume-btn {
+  background-color: #1D1D1D;
+  color: #E5E5E5;
+  border-radius: 4px;
+  border-color: #E5E5E5;
+  border-style: solid;
+  border-width: 1px;
+  padding: 5px 5px;
+  cursor: pointer;
+  font-weight: 400;
+  margin-left: auto;
+  transition: all 0.15s;
+}
+
+.resume-btn:hover {
+  background-color: #2A2A2A;
 }
 
 @media (max-width: 640px) {
