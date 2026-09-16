@@ -1,6 +1,6 @@
 # Portfolio - andresilva.tech
 
-A sleek, modern, minimalist portfolio that gets straight to the point, a one pager that includes an about section, projects, experience, tech stack, and how to contact. 
+A sleek, modern, minimalist portfolio that gets straight to the point, a one pager that includes an about section, projects, experience, tech stack, and how to contact. Responsive for all modern devices.
 
 **Live Site:** [andresilva.tech](https://andresilva.tech)
 
