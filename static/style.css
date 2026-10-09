@@ -6,7 +6,7 @@ body {
   font-family: "Geist", sans-serif;
   margin-bottom: 0;
   margin-top: 0;
-  background-color: #1A1A1A;
+  background-color: #0D0D0D;
 }
 
 html {
@@ -33,7 +33,7 @@ html {
 
 .heading-name {
     font-size: 1rem;
-    color: #E5E5E5;
+    color: #D4D4D4;
     font-weight: 500;
     line-height: 1.5rem;
     overflow-wrap: break-word;
@@ -47,7 +47,7 @@ html {
 }
 
 .heading-location {
-    color: #A8A8A8;
+    color: #989898;
     font-weight: 400;
     font-size: 0.9rem;
     padding-bottom: 10px;
@@ -55,13 +55,13 @@ html {
 
 .heading-nav-element {
     font-size: 0.9rem;
-    color: #A8A8A8;
+    color: #989898;
     text-decoration: none;
     transition: all 0.15s;
 }
 
 .heading-nav-element:hover{
-    color: #E5E5E5;
+    color: #D4D4D4;
 }
 
 .about-section {
@@ -70,24 +70,24 @@ html {
 }
 
 .about-school {
-    color: #E5E5E5;
+    color: #D4D4D4;
     text-decoration: underline;
     text-underline-offset: 5px;
     text-decoration-thickness: 1px;
-    text-decoration-color: #A8A8A8;
+    text-decoration-color: #989898;
     transition: all 0.15s;
 }
 
 .about-school:hover {
-    text-decoration-color: #E5E5E5;
+    text-decoration-color: #D4D4D4;
 }
 
 .about-headline {
-    color: #E5E5E5;
+    color: #D4D4D4;
 }
 
 .about-paragraph {
-    color: #E5E5E5;
+    color: #D4D4D4;
     line-height: 30px;
     padding-bottom: 15px;
 }
@@ -96,8 +96,8 @@ html {
     display: inline-flex;
     gap: 5px;
     margin-right: 15px;
-    color: #E5E5E5;
-    text-decoration-color: #A8A8A8;
+    color: #D4D4D4;
+    text-decoration-color: #989898;
     text-underline-offset: 5px;
     text-decoration-thickness: 1px;
     font-weight: 400;
@@ -121,7 +121,7 @@ html {
 
 .project-section-title {
     padding-bottom: 10px;
-    color: #A8A8A8;
+    color: #989898;
 }
 
 .projects-section {
@@ -137,14 +137,14 @@ html {
   object-position: top;
   border-radius: 6px;
   margin-bottom: 16px;
-  background-color: #2A2A2A; 
-  border: 1px solid #a8a8a860;
+  background-color: #1C1C1C;
+  border: 1px solid #303030;
   transition: 0.5s;
   box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
 }
 
 .project-img:hover {
-    background-color: rgb(221, 221, 221);
+    background-color: #1C1C1C;
     opacity: 50%;
 }
 
@@ -164,7 +164,7 @@ html {
   left: 50%;
   transform: translate(-50%, -50%);
   font-size: 1.5rem;
-  color: #E5E5E5;
+  color: #D4D4D4;
   opacity: 0;
   transition: opacity 0.3s;
   pointer-events: none; 
@@ -175,8 +175,8 @@ html {
 }
 
 .project-card {
-    background-color: #1d1d1d;
-    border: 1px solid #a8a8a860;
+    background-color: #141414;
+    border: 1px solid #262626;
     border-radius: 4px;
     padding: 24px;
     transition: all 0.15s;
@@ -184,20 +184,20 @@ html {
 }
 
 .project-card:hover {
-    background-color: #202020;
+    background-color: #1A1A1A;
     transform: translateY(-5px);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
 }
 
 .project-title {
-    color: #E5E5E5;
+    color: #D4D4D4;
     font-weight: 600;
     margin-top: 0;
     margin-bottom: 5px;
 }
 
 .project-desc {
-    color: #A8A8A8;
+    color: #989898;
     margin-top: 0;
     margin-bottom: 0px;
 }
@@ -212,11 +212,11 @@ html {
 
 .tag {
   font-size: 0.8rem;
-  color: #A8A8A8;
-  background-color: #2A2A2A;
+  color: #989898;
+  background-color: #1C1C1C;
   padding: 4px 10px;
   border-radius: 4px; 
-  border: 1px solid #3A3A3A;
+  border: 1px solid #2E2E2E;
   margin-bottom: 0px;
   margin-top: 5px;
 }
@@ -226,11 +226,11 @@ html {
 }
 
 .project-btn {
-    background-color: #2A2A2A;
+    background-color: #1C1C1C;
     border-style: solid;
-    border-color: #3A3A3A;
+    border-color: #2E2E2E;
     border-width: 1px;
-    color: #A8A8A8;
+    color: #989898;
     border-radius: 4px;
     padding-left: 10px;
     padding-right: 10px;
@@ -249,12 +249,12 @@ html {
 }
 
 .project-btn:hover {
-    color: #E5E5E5;
+    color: #D4D4D4;
 }
 
 .experience-heading {
     margin-top: 40px;
-    color: #A8A8A8;
+    color: #989898;
 }
 
 .job-card {
@@ -263,9 +263,9 @@ html {
   justify-content: space-between;
   gap: 16px;
   padding: 16px;
-  background-color: #1d1d1d;
+  background-color: #141414;
   border-radius: 4px;
-  border-color: #a8a8a860;
+  border-color: #262626;
   border-width: 1px;
   border-style: solid;
   transition: all 0.15s;
@@ -274,7 +274,7 @@ html {
 }
 
 .job-card:hover {
-    background-color: #202020;
+    background-color: #1A1A1A;
     transform: translateY(-5px);
     box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
 }
@@ -295,26 +295,26 @@ html {
 }
 
 .job-role {
-  color: #E5E5E5;
+  color: #D4D4D4;
   font-weight: 500;
 }
 
 .job-company-name {
-  color: #A8A8A8;
+  color: #989898;
   font-size: 0.9rem;
   font-style: italic;
   margin-top: -20px;
 }
 
 .job-time {
-  color: #A8A8A8;
+  color: #989898;
   font-size: 0.9rem;
   white-space: nowrap;
   flex-shrink: 0;
 }
 
 .tech-stack-heading {
-    color: #A8A8A8;
+    color: #989898;
 }
 
 .tech-stack {
@@ -325,14 +325,14 @@ html {
 }
 
 .tech-stack p:first-child {
-  color: #A8A8A8;
+  color: #989898;
   width: 90px;
   flex-shrink: 0;
   font-size: 0.9rem;
 }
 
 .tech-stack p:last-child {
-  color: #E5E5E5;
+  color: #D4D4D4;
   font-size: 0.9rem;
 }
 
@@ -348,16 +348,16 @@ html {
   gap: 12px;
   padding: 32px 0;
   margin-top: 48px;
-  border-top: 1px solid #2A2A2A;
+  border-top: 1px solid #1C1C1C;
   transition: all 0.5s;
 }
 
 .site-footer:hover {
-  border-color: #e5e5e5a9;
+  border-color: #444444;
 }
 
 .footer-text {
-  color: #A8A8A8;
+  color: #989898;
   font-size: 0.85rem;
   margin: 0;
   font-style: italic;
@@ -369,22 +369,22 @@ html {
 }
 
 .footer-link {
-  color: #A8A8A8;
+  color: #989898;
   font-size: 0.85rem;
   text-decoration: none;
   transition: color 0.15s;
 }
 
 .footer-link:visited {
-  color: #A8A8A8;
+  color: #989898;
 }
 
 .footer-link:hover {
-  color: #E5E5E5;
+  color: #D4D4D4;
 }
 
 .contact-heading {
-  color: #A8A8A8;
+  color: #989898;
   margin-bottom: 16px;
   margin-top: 40px;
 }
@@ -400,7 +400,7 @@ html {
   display: inline-flex;
   align-items: center;
   gap: 10px;
-  color: #A8A8A8;
+  color: #989898;
   text-decoration: none;
   font-size: 0.95rem;
   width: fit-content;
@@ -409,11 +409,11 @@ html {
 }
 
 .contact-link:visited {
-  color: #A8A8A8;
+  color: #989898;
 }
 
 .contact-link:hover {
-  color: #E5E5E5;
+  color: #D4D4D4;
 }
 
 .email-contact {
@@ -423,11 +423,11 @@ html {
 .more-projects-btn {
   font-size: 16px;
   font-weight: 400;
-  color: #A8A8A8;
+  color: #989898;
   align-items: center;
   justify-content: center;
-  background-color: #1D1D1D;
-  border-color: #a8a8a860;
+  background-color: #141414;
+  border-color: #262626;
   border-style: solid;
   border-width: 1px;
   padding-left: 236px;
@@ -443,10 +443,10 @@ html {
 }
 
 .more-projects-btn:hover {
-  background-color: rgb(46, 46, 46);
+  background-color: #1C1C1C;
   transform: translateY(-5px);
   box-shadow: 0px 0px 30px rgba(0, 0, 0, 0.438);
-  color: #E5E5E5;
+  color: #D4D4D4;
 }
 
 .copy {
@@ -454,22 +454,22 @@ html {
   width: fit-content;
   margin-top: 17px;
   padding: 4px 8px;
-  background-color: #1D1D1D;
+  background-color: #141414;
   border-radius: 4px;
   border-width: 1px;
-  border-color: #A8A8A8;
+  border-color: #303030;
   border-style: solid;
-  color: #A8A8A8;
+  color: #989898;
   font-size: 0.8rem;
   font-weight: 400;
 }
 
 .contact-email-copy {
   display: none;
-  background-color: #1D1D1D;
+  background-color: #141414;
   border-radius: 4px;
   border-width: 1px;
-  border-color: #A8A8A8;
+  border-color: #303030;
   border-style: solid;
   padding: 5px 10px;
   margin-left: 325px;
@@ -484,10 +484,10 @@ html {
 }
 
 .resume-btn {
-  background-color: #1D1D1D;
-  color: #E5E5E5;
+  background-color: #141414;
+  color: #D4D4D4;
   border-radius: 4px;
-  border-color: #E5E5E5;
+  border-color: #444444;
   border-style: solid;
   border-width: 1px;
   padding: 5px 5px;
@@ -498,7 +498,7 @@ html {
 }
 
 .resume-btn:hover {
-  background-color: #2A2A2A;
+  background-color: #1C1C1C;
 }
 
 @media (max-width: 640px) {
