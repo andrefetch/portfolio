@@ -196,7 +196,8 @@ html {
 
 .projects-section {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-auto-rows: 1fr;
     gap: 24px;
 }
 
@@ -245,6 +246,8 @@ html {
 }
 
 .project-card {
+    display: flex;
+    flex-direction: column;
     background-color: var(--surface);
     border: 1px solid var(--border);
     border-radius: 4px;
@@ -275,20 +278,23 @@ html {
 .project-tags {
   display: flex;
   flex-wrap: wrap;
-  gap: 8px;
-  margin: 10px 0px;
-  margin-bottom: 15px;
+  gap: 6px;
+  margin: 8px 0 12px;
 }
 
 .tag {
   font-size: 0.8rem;
   color: var(--text-muted);
   background-color: var(--surface-raised);
-  padding: 4px 10px;
+  padding: 4px 6px;
   border-radius: 4px; 
   border: 1px solid var(--border-control);
   margin-bottom: 0px;
-  margin-top: 5px;
+  margin-top: 0;
+}
+
+.project-actions {
+    margin-top: auto;
 }
 
 .project-href {
