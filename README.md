@@ -21,12 +21,8 @@ Not a heavy component-based project, so I skipped the framework overhead and bui
 ## Deployment
 Hosted on GitHub Pages with a custom domain ([andresilva.tech](https://andresilva.tech)) and HTTPS.
 
-## Roadmap
-- [x] Deploy Live
-- [x] Mobile/Different Screen Ratio Responsivness
-- [x] More Projects Btn -> redirects to my GitHub
-- [x] Src Code Button -> redirects here
-- [x] Email Copying instead of mailto: 
+## Usage of Other(s)
+https://www.reactbits.dev/ | background effects
 
 ## License
 MIT
