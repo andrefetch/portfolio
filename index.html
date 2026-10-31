@@ -5,6 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <script src="static/js/switch.js"></script>
     <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="static/pixel-snow.css">
+    <link rel="stylesheet" href="static/gradient-ascii.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <script src="https://kit.fontawesome.com/a563296788.js" crossorigin="anonymous"></script>
@@ -16,6 +18,14 @@
 
 </head>
 <body>
+
+    <div id="gradient-ascii" class="gradient-ascii-container site-gradient-ascii" aria-hidden="true">
+        <canvas class="gradient-ascii-canvas"></canvas>
+    </div>
+
+    <div id="pixel-snow" class="pixel-snow-container site-snow" aria-hidden="true">
+        <canvas class="pixel-snow-canvas"></canvas>
+    </div>
 
     <div class="site-container">
         <div class="heading">
@@ -235,5 +245,7 @@
     </div>
 
     <script src="static/js/copy.js"></script>
+    <script src="static/js/gradient-ascii.js"></script>
+    <script src="static/js/pixel-snow.js"></script>
 </body>
 </html>
